@@ -1,0 +1,3 @@
+Analysis Type,Variable,Usable Sample Size,Main Estimate,Secondary Estimate,Spread / SD,Minimum,Q1,Q3,Maximum,Missing / Invalid Count
+Behavior,CurrentCigaretteUse,13323,0.1943256023418149,0.805674397658185,,,,,,718
+Continuous,BMIPCT,13062,64.82068317411306,70.138534555,27.516756256180642,3.72e-09,45.16626978,89.4509676725,99.93921341,979
