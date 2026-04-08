@@ -1,0 +1,92 @@
+
+PROJECT CYCLE 2 - FINAL SUMMARY
+================================
+
+Dataset:
+YRBS_2007.csv
+
+Behavior Variable for Proportion Analysis:
+CurrentCigaretteUse
+
+Continuous Variable for Mean Analysis:
+BMIPCT
+
+------------------------------------------------------------
+1. RESEARCH QUESTIONS
+------------------------------------------------------------
+
+Behavior Variable:
+Is the proportion of students who currently use cigarettes different from 0.20?
+
+Continuous Variable:
+Is the mean BMIPCT of students different from 65.0?
+
+------------------------------------------------------------
+2. DATA AND VARIABLES
+------------------------------------------------------------
+
+Behavior Variable:
+- Variable used: CurrentCigaretteUse_binary
+- Success = currently uses cigarettes
+- Failure = does not currently use cigarettes
+- Benchmark proportion: p0 = 0.20
+
+Continuous Variable:
+- Variable used: BMIPCT
+- Valid range used: 0 to 100
+- Benchmark mean: mu0 = 65.0
+
+------------------------------------------------------------
+3. EDA HIGHLIGHTS
+------------------------------------------------------------
+
+Behavior Variable:
+- Final usable sample size: 13323
+- Estimated proportion of current cigarette users: 0.1943
+
+Continuous Variable:
+- Final usable sample size: 13062
+- Mean BMIPCT: 64.8207
+- Standard deviation of BMIPCT: 27.5168
+
+------------------------------------------------------------
+4. INFERENTIAL RESULTS
+------------------------------------------------------------
+
+A. Proportion Analysis: CurrentCigaretteUse
+
+- Sample proportion (p-hat): 0.1943
+- 95% Confidence Interval: (0.1876, 0.2010)
+- Test statistic (z): -1.6374
+- p-value: 0.101542
+- Decision: Fail to reject H0
+
+Interpretation:
+There is not sufficient evidence that the population proportion of students who currently use cigarettes is different from 0.20.
+
+B. Mean Analysis: BMIPCT
+
+- Sample mean (x-bar): 64.8207
+- 95% Confidence Interval: (64.3487, 65.2926)
+- Test statistic (t): -0.7448
+- p-value: 0.456417
+- Decision: Fail to reject H0
+
+Interpretation:
+There is not sufficient evidence that the population mean BMIPCT is different from 65.
+
+------------------------------------------------------------
+5. FINAL CONCLUSION
+------------------------------------------------------------
+
+This project examined one behavior variable and one continuous variable from the YRBS 2007 dataset.
+
+For the behavior variable, the analysis estimated the proportion of students who currently use cigarettes and tested whether this proportion differs from 0.20.
+
+For the continuous variable, the analysis estimated the mean BMIPCT and tested whether it differs from 65.0.
+
+The confidence intervals and hypothesis tests provide statistical evidence to support the final conclusions above. These inferential results should be interpreted together with the EDA findings and with awareness of possible limitations such as missing data or unusual observations.
+
+============================================================
+End of Summary
+============================================================
