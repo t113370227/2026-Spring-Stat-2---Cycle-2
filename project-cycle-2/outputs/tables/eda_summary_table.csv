@@ -1,0 +1,13 @@
+analysis_part,metric,value
+Behavior variable,Behavior variable name,CurrentCigaretteUse
+Behavior variable,Valid n,13323
+Behavior variable,Sample proportion (success=1),0.194326
+Continuous variable,Continuous variable name,BMIPCT
+Continuous variable,Valid n,13062
+Continuous variable,Mean,64.820683
+Continuous variable,Median,70.138535
+Continuous variable,Standard deviation,27.516756
+Continuous variable,Q1,45.16627
+Continuous variable,Q3,89.450968
+Additional EDA,Age exploration rows,13269
+Additional EDA,Sleep exploration rows,11344
