@@ -1,0 +1,19 @@
+analysis,metric,value
+Proportion,Variable,CurrentCigaretteUse
+Proportion,n,13323
+Proportion,Sample estimate,0.194326
+Proportion,Benchmark,0.2
+Proportion,95% CI lower,0.187607
+Proportion,95% CI upper,0.201044
+Proportion,Hypothesis test decision,Fail to reject H0
+Mean,Variable,BMIPCT
+Mean,n,13062
+Mean,Sample estimate,64.820683
+Mean,Benchmark,65.0
+Mean,95% CI lower,64.34875
+Mean,95% CI upper,65.292617
+Mean,Hypothesis test decision,Fail to reject H0
+Proportion,test_statistic,-1.637423
+Proportion,p_value,0.101542
+Mean,test_statistic,-0.744781
+Mean,p_value,0.456417
