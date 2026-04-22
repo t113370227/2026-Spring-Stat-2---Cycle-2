@@ -1,0 +1,60 @@
+Project Cycle 2 Final Summary
+=============================
+
+Research Questions
+------------------
+1. Is the proportion of students who currently use cigarettes different from 0.20?
+2. Is the mean BMIPCT different from 65.0?
+
+Behavior Variable: CurrentCigaretteUse
+--------------------------------------
+Parameter: population proportion p
+Benchmark: p0 = 0.20
+
+Sample size: 13323
+Sample proportion: 0.1943
+95% confidence interval: (0.1876, 0.2010)
+Test statistic (z): -1.6374
+P-value: 0.101542
+Decision at alpha = 0.05: Fail to reject H0
+
+Interpretation:
+The sample proportion of students who currently use cigarettes was estimated as 0.1943. The 95% confidence interval (0.1876, 0.2010) provides a range of plausible values for the true population proportion.
+
+Because the benchmark value 0.20 lies within this confidence interval and the p-value is greater than 0.05, we do not have sufficient evidence to conclude that the population proportion differs from 0.20.
+
+This result is consistent with the EDA findings, where the observed sample proportion was already very close to 0.20. Although the additional age-based EDA suggested that current cigarette use tends to increase with age, the overall proportion in the full sample remains close to the benchmark value.
+
+Therefore, the proportion of students who currently use cigarettes appears to be consistent with 0.20, and the small observed difference is likely due to sampling variability.
+
+Continuous Variable: BMIPCT
+---------------------------
+Parameter: population mean mu
+Benchmark: mu0 = 65.0
+
+Sample size: 13062
+Sample mean: 64.8207
+Sample standard deviation: 27.5168
+95% confidence interval: (64.3487, 65.2926)
+Test statistic (t): -0.7448
+P-value: 0.456417
+Decision at alpha = 0.05: Fail to reject H0
+
+Interpretation:
+The sample mean BMIPCT was estimated as 64.8207. The 95% confidence interval (64.3487, 65.2926) provides a range of plausible values for the true population mean.
+
+Because the benchmark value 65.0 lies within this confidence interval and the p-value is greater than 0.05, we do not have sufficient evidence to conclude that the population mean differs from 65.0.
+
+This result is consistent with the EDA findings. Although the histogram and boxplot suggested that many BMIPCT values were relatively high and the median was above 65, the data also showed substantial variability, which reduces the strength of the apparent difference from the benchmark.
+
+Therefore, the population mean BMIPCT appears to be consistent with 65.0, and the observed sample difference is likely due to natural variation rather than a meaningful population-level difference.
+
+Final Synthesis
+---------------
+This project used one-sample inference to examine whether the population proportion of current cigarette use differs from 0.20 and whether the population mean BMIPCT differs from 65.0.
+
+The EDA provided important context for both analyses. For CurrentCigaretteUse, the sample proportion was already close to 0.20, although smoking prevalence varied across age groups. For BMIPCT, the distribution showed moderate to high values with substantial spread, suggesting that variability would be important in the inferential results.
+
+Overall, the inferential analyses showed that there is not sufficient statistical evidence to conclude that either the population proportion of current cigarette use differs from 0.20 or that the population mean BMIPCT differs from 65.0.
+
+These results show the value of combining EDA with inference: EDA helps reveal patterns in the sample, while inference helps determine whether those patterns are strong enough to support conclusions about the population.
